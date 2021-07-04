@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 50px;
     font-style: bold;
 }
 
@@ -12,7 +12,7 @@ h1{
     color: tomato;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 200px;
 }
@@ -51,11 +51,56 @@ p{
 }
 
 .shaery img{
-    width: 90%;
+    padding-left: 10px;
+    width: 80%;
 }
 
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#dream{
+    padding-right: 150px;
+}
+
+.color{
+    color: navy;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(144, 15, 15),salmon);
+    border-image-slice: 1;
+}
+
+#baby-developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(navy, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(75, 72, 72);
 }
